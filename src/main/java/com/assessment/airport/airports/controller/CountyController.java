@@ -93,10 +93,10 @@ class CountryController {
     }
 
     @GetMapping("/topten")
-    public ResponseEntity<List<Object[]>> getTopTen() {
+    public ResponseEntity<List<AiroportCount>> getTopTen() {
         try {
 
-            List<Object[]> items = repository.topTenCountriesByAirportNumber();
+            List<AiroportCount> items = repository.topTenCountriesByAirportNumber();
             System.out.println(items);
 
             if (items.isEmpty())

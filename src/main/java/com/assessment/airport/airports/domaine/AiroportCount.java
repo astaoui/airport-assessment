@@ -1,15 +1,8 @@
 package com.assessment.airport.airports.domaine;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+public interface AiroportCount {
 
-@AllArgsConstructor
-@Setter
-@Getter
-public class AiroportCount {
+    public String getName();
 
-    String name;
-    long count;
-
+    public long getCount();
 }
