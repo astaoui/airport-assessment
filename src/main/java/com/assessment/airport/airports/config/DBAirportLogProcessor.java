@@ -1,7 +1,6 @@
 package com.assessment.airport.airports.config;
 
 import com.assessment.airport.airports.domaine.Airport;
-import com.assessment.airport.airports.domaine.Country;
 import com.assessment.airport.airports.repository.CountryRepository;
 
 import org.springframework.batch.item.ItemProcessor;

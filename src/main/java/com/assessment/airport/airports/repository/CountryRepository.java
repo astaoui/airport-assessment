@@ -1,13 +1,10 @@
 package com.assessment.airport.airports.repository;
 
 import java.util.List;
-import java.util.Map;
 
 import com.assessment.airport.airports.domaine.AiroportCount;
 import com.assessment.airport.airports.domaine.Country;
-import com.assessment.airport.airports.domaine.Runway;
 
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -3,7 +3,6 @@ package com.assessment.airport.airports.config;
 import javax.persistence.EntityManagerFactory;
 
 import com.assessment.airport.airports.domaine.Runway;
-import com.assessment.airport.airports.repository.RunwayRepository;
 
 import org.springframework.batch.core.BatchStatus;
 import org.springframework.batch.core.Job;
@@ -37,8 +36,9 @@ public class BatchConfigRunways {
     @Autowired
     private StepBuilderFactory stepBuilderFactory;
 
-    @Autowired
-    private RunwayRepository runwayRepository;
+    /*
+     * @Autowired private RunwayRepository runwayRepository;
+     */
 
     @Autowired
     EntityManagerFactory emf;

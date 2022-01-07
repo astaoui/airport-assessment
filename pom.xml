@@ -68,4 +68,34 @@
 		</plugins>
 	</build>
 
+	<profiles>
+
+		<profile>
+            <id>local-h2</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <activatedProperties></activatedProperties>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>dev</id>
+           <!--  <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation> -->
+            <properties>
+                <activatedProperties>dev</activatedProperties>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>prod</id>
+            <properties>
+                <activatedProperties>prod</activatedProperties>
+            </properties>
+        </profile>
+    </profiles>
+
 </project>

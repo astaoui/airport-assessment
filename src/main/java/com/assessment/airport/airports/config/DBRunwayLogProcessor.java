@@ -1,6 +1,5 @@
 package com.assessment.airport.airports.config;
 
-import com.assessment.airport.airports.domaine.Airport;
 import com.assessment.airport.airports.domaine.Runway;
 import com.assessment.airport.airports.repository.AirportRepository;
 
